@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Befehl, der beim Start des Containers ausgeführt wird
-CMD ["python", "import_script.py"]
+CMD ["python", "main.py"]
